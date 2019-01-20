@@ -12,7 +12,7 @@ import retrofit2.http.GET;
 public interface RequestInterface {
 
     //关键字搜索
-    @GET("product/getCarts?uid=71")
+    @GET("product/getCarts?uid=75")
     Observable<Result<List<Shop>>> cartData();
 
 
